@@ -19,11 +19,11 @@ body {
     background-color: black; /* Magic 8 Ball color */
     border-radius: 50%; /* Makes it a circle */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     position: relative;
+    margin-bottom: 20px; /* Space between the ball and button */
 }
 
 .answer {
@@ -36,7 +36,8 @@ body {
     align-items: center;
     font-size: 18px;
     position: absolute;
-    top: 20%;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for exact center */
 }
 
 button {
