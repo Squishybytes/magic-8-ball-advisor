@@ -23,11 +23,11 @@ const answers = [
     "Customer unhappy about cost",
     "Job takes twice as long as estimated",
     "Manager asks for paperwork right now",
-    "Customer accuses service of causing a scratch"
-    "Parts are obsolete"
-    "Parts are on back order"
-    "Sales sent them over with no appointment"
-    "Crying/Screaming baby in the lobby"
+    "Customer accuses service of causing a scratch",
+    "Parts are obsolete",
+    "Parts are on back order",
+    "Sales sent them over with no appointment",
+    "Crying/Screaming baby in the lobby",
     "105"
 ];
 
