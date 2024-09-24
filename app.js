@@ -1,4 +1,4 @@
-const badDayScenarios = [
+const answers = [
     "Customer arrives late for appointment",
     "No available loaner cars",
     "Mechanic calls in sick",
@@ -26,9 +26,7 @@ const badDayScenarios = [
     "Customer accuses service of causing a scratch"
 ];
 
-function getRandomAnswer() {
-    const randomIndex = Math.floor(Math.random() * badDayScenarios.length);
-    const randomScenario = badDayScenarios[randomIndex];
-    document.getElementById('result').textContent = randomScenario;
-}
-
+document.getElementById('askButton').addEventListener('click', function() {
+    const randomAnswer = answers[Math.floor(Math.random() * answers.length)];
+    document.getElementById('answer').innerText = randomAnswer;
+});
