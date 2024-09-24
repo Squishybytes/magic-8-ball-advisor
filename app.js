@@ -28,7 +28,9 @@ const answers = [
     "Parts are on back order",
     "Sales sent them over with no appointment",
     "Crying/Screaming baby in the lobby",
-    "105"
+    "105",
+    "Manager Meeting",
+    "Having To Checking Secuity Camera Footage",
 ];
 
 document.getElementById('askButton').addEventListener('click', function() {
