@@ -1,31 +1,49 @@
+/* Existing body styles preserved with added background settings */
 body {
-    background-color: #2E2E2E; /* Background color */
-    color: white; /* Text color */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
+    background: url('images/Crystal Ball.jpg') no-repeat center center fixed; /* Adds the background image */
+    background-size: cover; /* Ensures the background image covers the entire screen */
+    background-color: #2E2E2E; /* Fallback background color */
+    color: white; /* Text color remains as defined */
+    display: flex; /* Existing layout */
+    justify-content: center; /* Center elements horizontally */
+    align-items: center; /* Center elements vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Removes default margin */
+    font-family: Arial, sans-serif; /* Font family remains the same */
+    overflow: hidden; /* Prevents scrolling to fit the new background */
 }
 
+/* Container remains centered with text aligned */
 .container {
     text-align: center;
 }
 
+/* Existing magic 8-ball styles */
 .magic-8-ball {
     width: 300px;
     height: 300px;
-    background-color: black; /* Magic 8 Ball color */
+    background-color: black; /* Keeps the original ball color */
     border-radius: 50%; /* Makes it a circle */
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     position: relative;
-    margin-bottom: 20px; /* Space between the ball and button */
+    margin-bottom: 20px; /* Keeps space between the ball and button */
 }
 
+/* Positioning the 8-Ball within the new background */
+.eight-ball {
+    position: absolute;
+    top: 50%; /* Adjust to align vertically on the crystal ball */
+    left: 50%; /* Adjust to align horizontally on the crystal ball */
+    transform: translate(-50%, -50%); /* Centers the 8-Ball */
+    z-index: 10; /* Places it above the background */
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Existing answer styles */
 .answer {
     width: 100px;
     height: 100px;
@@ -40,6 +58,7 @@ body {
     transform: translateY(-50%); /* Adjust for exact center */
 }
 
+/* Button styles retained as is */
 button {
     padding: 10px 20px;
     font-size: 16px;
