@@ -1,0 +1,17 @@
+{
+  "name": "magic-8-ball-advisor",
+  "version": "1.0.0",
+  "description": "Automotive Magic 8 Ball",
+  "main": "app.js",
+  "scripts": {
+  "start": "node app.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

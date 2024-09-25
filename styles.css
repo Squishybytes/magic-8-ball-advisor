@@ -1,6 +1,6 @@
 /* Existing body styles preserved with added background settings */
 body {
-    background: url('images/Crystal Ball.jpg') no-repeat center center fixed; /* Adds the background image */
+    background: url('images/Crystal Ball.jpg') no-repeat center center fixed; /* Change to your new image */
     background-size: cover; /* Ensures the background image covers the entire screen */
     background-color: #2E2E2E; /* Fallback background color */
     color: white; /* Text color remains as defined */
