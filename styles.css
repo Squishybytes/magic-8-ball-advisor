@@ -52,9 +52,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 60px;
     position: absolute;
-    top: 50%; /* Center vertically */
+    top: 70%; /* Center vertically */
     transform: translateY(-50%); /* Adjust for exact center */
 }
 
