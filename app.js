@@ -14,6 +14,7 @@ const answers = [
     "Can't reach customer for approval",
     "Customer has 100 questions about the service",
     "Printer jam during peak hours",
+    "Customer drops full coffee and no clean mop",
     "Check engine light comes on after service",
     "Customer wants same-day service without appointment",
     "Mechanic points out unexpected problem",
